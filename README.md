@@ -15,13 +15,13 @@ void loop() {
 
   if (ldrState == LOW) {
 
-  digitalWrite(b, HIGH);
+    digitalWrite(b, HIGH);
 
   }
   else {
 
     // Light detected
-   digitalWrite(b, LOW);
+    digitalWrite(b, LOW);
 
   }
 }
